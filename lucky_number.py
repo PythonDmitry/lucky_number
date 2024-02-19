@@ -5,6 +5,12 @@ num_list = list(number_str)
 
 count = length_1 // 2
 
+for i in num_list[:len(number_str)//2]:
+    print(i)
+print('------------')
+for i in num_list[(len(number_str)+1)//2:]:
+    print(i)
+print('------------')
 
 def left(amount, num_lis):
     l_list = []
@@ -40,3 +46,5 @@ if sum_l == sum_r:
 else:
     print('Ваше число несчастливое')
 # push test
+
+
