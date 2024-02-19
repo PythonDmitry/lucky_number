@@ -38,3 +38,4 @@ for item in most_right:
 if sum_l == sum_r:
     print('Ваше число счастливое =_=')
 
+# push test
