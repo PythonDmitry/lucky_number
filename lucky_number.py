@@ -37,5 +37,6 @@ for item in most_right:
 
 if sum_l == sum_r:
     print('Ваше число счастливое =_=')
-
+else:
+    print('Ваше число несчастливое')
 # push test
